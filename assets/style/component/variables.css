@@ -1,0 +1,7 @@
+@import './fonts.css';
+:root{
+--mon :'Montserrat';
+--c-grey: #323232;
+--c-black: #000;
+--bg-cards: #E1E1E1;
+}

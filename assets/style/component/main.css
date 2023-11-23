@@ -1,0 +1,261 @@
+.main__title {
+    color: var(--c-black);
+    text-align: center;
+    font-family: var(--mon);
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main__cards {
+    display: grid;
+    grid-template-rows: repeat(4, 485px);
+    grid-template-columns: repeat(3, 416px);
+    row-gap: 40px;
+    column-gap: 24px;
+    margin-top: 60px;
+}
+
+.main__card1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.main__card2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.main__card3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.main__card4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.main__card5 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.main__card6 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.main__card7 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.main__card8 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.main__card9 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.main__card10 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.main__card11 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.main__card12 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.main__card {
+    background: var(--bg-cards);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.main__card1::before {
+    content: 'NEW';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card2::before {
+    content: '15%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card3::before {
+    content: '30%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card4::before {
+    content: '10%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card7::before {
+    content: '50%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card8::before {
+    content: '20%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card9::before {
+    content: '30%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card11::before {
+    content: '10%';
+    padding: 13px 34px;
+    border-radius: 10px;
+    background: var(--c-grey);
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    top: 32px;
+    left: 22px;
+}
+
+.main__card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -80px;
+    gap: 20px;
+}
+
+.main__card-descr {
+    color: var(--c-grey);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main__card-name {
+    color: var(--c-black);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.main__card-price {
+    color: var(--c-grey);
+    font-family: var(--mon);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.main__card-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* padding-top: 20px; */
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.main__card-icons-pt {
+    padding-top: 20px;
+}
+
+.main__card-items img {
+    transition: .5s;
+    overflow: hidden;
+}
+
+.main__card-items:hover img {
+    transform: scale(1.1);
+}

@@ -1,0 +1,130 @@
+@media(max-width:1100.99px) {
+    .nav {
+        position: relative;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        background: #F1F1F1;
+        top: -340px;
+        padding: 15px;
+        gap: 25px;
+        right: 0;
+        transition: 2s;
+        border-radius: 10px;
+    }
+
+    .nav__list-link {
+        margin: 0;
+        overflow: hidden;
+        padding: 15px 50px;
+        transition: 1s;
+
+    }
+
+    .nav__list-link:hover {
+        border: none;
+        background: #E1E1E1;
+        border-radius: 10px;
+        font-size: 19px;
+        width: 100%;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+
+
+    .nav__menu-btn {
+        display: flex;
+    }
+
+    .nav__menu:hover .nav__list {
+        top: 20%;
+        z-index: 10;
+    }
+
+    .nav__list2 {
+        display: none;
+    }
+
+    /* ****************** */
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__content-items {
+        margin-top: -20%;
+        padding-right: 15px;
+    }
+
+    .header__content-flex img {
+        padding-bottom: 30px;
+    }
+
+    .main__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .main__card {
+        width: 100%;
+    }
+
+    .article__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    .article__card1,
+    .article__card2 {
+        width: 100%;
+    }
+
+    .main__card-price {
+        padding-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: 53%;
+        height: 100%;
+
+    }
+
+    .footer__items,
+    .social-networks {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .main__title {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:767.99px) {
+    .footer {
+        margin-top: 68%;
+    }
+}
+
+@media(max-width:575.99px) {
+    .footer {
+        margin-top: 98%;
+    }
+}
+
+@media(max-width:319.99px) {
+    .footer {
+        margin-top: 700%;
+    }
+
+}
