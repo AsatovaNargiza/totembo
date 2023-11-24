@@ -7,7 +7,7 @@
         position: absolute;
         flex-direction: column;
         background: #F1F1F1;
-        top: -340px;
+        top: -460px;
         padding: 15px;
         gap: 25px;
         right: 0;
@@ -20,6 +20,7 @@
         overflow: hidden;
         padding: 15px 50px;
         transition: 1s;
+        display: inline-block;
 
     }
 
@@ -114,6 +115,10 @@
     .footer {
         margin-top: 68%;
     }
+    .social-networks{
+        grid-template: 30px;
+    }
+    
 }
 
 @media(max-width:575.99px) {
