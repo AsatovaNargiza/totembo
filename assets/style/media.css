@@ -79,22 +79,41 @@
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        margin-bottom: 24px;
+        margin-bottom: 14px;
     }
 
     .article__card1,
     .article__card2 {
         width: 100%;
+
+    }
+    .article__card h2 {
+        font-size: 16px;
+    }
+
+    .header__content-flex3 {
+        padding-top: 20px;
+        padding-left: 50px;
     }
 
     .main__card-price {
         padding-bottom: 20px;
     }
 
-    .footer {
-        margin-top: 53%;
-        height: 100%;
+    .main__card-items {
+        margin-top: -100px;
+    }
 
+    .article p {
+
+        font-size: 20px;
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+    .article p {
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
     .footer__items,
@@ -112,24 +131,19 @@
 }
 
 @media(max-width:767.99px) {
-    .footer {
-        margin-top: 68%;
-    }
-    .social-networks{
+    
+
+    .social-networks {
         grid-template: 30px;
     }
-    
+
 }
 
 @media(max-width:575.99px) {
-    .footer {
-        margin-top: 98%;
-    }
+   
 }
 
 @media(max-width:319.99px) {
-    .footer {
-        margin-top: 700%;
-    }
+   
 
 }
